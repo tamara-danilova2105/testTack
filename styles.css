@@ -1,0 +1,140 @@
+/* font-family: 'Roboto', sans-serif; */
+
+
+.container{
+    display: flex;
+}
+
+.calendar-container {
+    width: 70%;
+}
+
+.nowDate {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1768AC;
+}
+
+th {
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.datenow {
+    background-color: #FDB9FC;
+}
+
+.table {
+    display: flex;
+}
+
+#weekTwo {
+    display: none;
+}
+
+td {
+    width: 150px;
+    height: 100px;
+	border: 1px solid black;
+	text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.user  {
+    background-color: #01937C;
+    color: #fff;
+}
+
+.yesTask {
+    position: relative;
+    background-color: #2D46B9;
+    color: #fff;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #01937C;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+.yesTask:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.firstField {
+    border: none;
+}
+
+.backlog-container {
+    width: 30%;
+    background-color: #DDDDDD;
+    margin-left: 20px;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.search-container {
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#btnSearch {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task {
+    background-color: #F9F9F9;
+    margin: 10px;
+    height: 40px;
+}
+.nameTask {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #1768AC;
+}
+
+.btn {
+    background-color: #01937C;
+    padding: 5px;
+    width: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+@media all and (max-width: 500px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
